@@ -1,0 +1,15 @@
+body {
+    font-family: Verdana;
+    font-size: 1.1em;
+    background-color:#c0c0c0;
+    color: #00008b;
+}
+h1{
+    font-variant: all-petite-caps;
+    background-color: #ff1400;
+}
+a:hover {
+    border: 2px solid #EF233C;
+    padding: 3px;
+
+}
