@@ -1,0 +1,14 @@
+ul.checklist li.checked {
+    list-style-type: none ;
+    background: url('../image/download.png') no-repeat left center;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px, 20px;
+
+}
+
+ul.checklist li {
+    list-style-type: none;
+    padding-left: 20px
+}
