@@ -11,5 +11,7 @@ h1{
 a:hover {
     border: 2px solid #EF233C;
     padding: 3px;
-
+}
+.stippeltjesrand{
+    border-style:dotted;
 }
