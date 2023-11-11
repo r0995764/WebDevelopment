@@ -1,0 +1,169 @@
+.datagrid table {
+    border-collapse: collapse;
+    text-align: left; width: 100%;
+}
+.datagrid {
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff;
+    overflow: hidden;
+    border: 1px solid #006699;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.datagrid table td, .datagrid table th {
+    padding: 3px 10px;
+}
+.datagrid table thead th {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+    background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+    background-color:#006699;
+    color:#ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    border-left: 1px solid #0070A8;
+}
+.datagrid table thead th:first-child {
+    border: none;
+}
+.datagrid table tbody td {
+    color: #00496B;
+    border-left: 1px solid #E1EEF4;
+    font-size: 12px;
+    font-weight: normal;
+}
+.datagrid table tbody .alt td {
+    background: #E1EEF4;
+    color: #00496B;
+}
+.datagrid table tbody td:first-child {
+    border-left: none;
+}
+.datagrid table tbody tr:last-child td {
+    border-bottom: none;
+}
+.datagrid table tfoot td div {
+    border-top: 1px solid #006699;
+    background: #E1EEF4;
+}
+.datagrid table tfoot td {
+    padding: 0;
+    font-size: 12px
+}
+.datagrid table tfoot td div{
+      padding: 2px;
+}
+.datagrid table tfoot td ul {
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-align: right;
+}
+ .datagrid table tfoot  li {
+     display: inline;
+ }
+.datagrid table tfoot li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 8px;
+    margin: 1px;color: #FFFFFF;
+    border: 1px solid #006699;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+    background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+    background-color:#006699;
+}
+.datagrid table tfoot ul.active, .datagrid table tfoot ul a:hover {
+    text-decoration: none;
+    border-color: #006699;
+    color: #FFFFFF;
+    background: none;
+    background-color:#00557F;
+}
+
+
+
+body{
+    margin: 0 auto;
+    width: 95%;
+}
+
+h1{
+    background-image: url("../../Images/Sterren.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+
+    padding: 30px 0 0 30px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+body > section > table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+section > h2{
+    font-size: 25px;
+    text-decoration: underline;
+}
+body > section{
+    background-size: cover;
+
+}
+li{
+    -webkit-margin-collapse: collapse;
+}
+tr, th, td{
+    border:2px solid black;
+    text-align: center;
+}
+header > h2{
+    text-align: center;
+}
+body > section > div > img{
+    width: 200px
+}
+section {
+    background-color: lightblue;
+}
+.checked {
+    background-color: green;
+}
+.midden {
+    background-color: orange;
+}
+.gefaald{
+    background-color: red;
+}
+a {
+    color: red;
+    border-bottom: 5px dotted black;
+}
+body > section > div {
+    padding-bottom: 20px;
+}
+.center{
+    text-align: center;
+}
+.Mathieu{
+    background: url('../../Images/img.png') no-repeat left center;
+    background-size: 20px, 20px;
+}
+.Stud1{
+    background: url('../../Images/img.png') no-repeat left center;
+    background-size: 20px, 20px;
+}
+.Stud2{
+    background: url('../../Images/failed.jpg') no-repeat left center;
+    background-size: 50px, 40px;
+}
+.Stud3 {
+    background: url('../../Images/img.png') no-repeat left center;
+    background-size: 20px, 20px;
+}
