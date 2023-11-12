@@ -41,7 +41,7 @@ td.volgende-maand {
 }
 
 td:first-child, td:last-child {
-    background-color: #add8e6;
+    background-color:  rgb(255, 220, 220);
 }
 
 td.Feestdag {
