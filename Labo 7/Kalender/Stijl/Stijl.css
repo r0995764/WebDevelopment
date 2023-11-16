@@ -29,21 +29,22 @@ th {
     color: black;
     background-color: rgb(170,170,200);
 }
-td.vorige-maand{
-    color: grey;
-    background-color: lightgray;
-}
 
 
-td.volgende-maand {
-    color: grey;
-    background-color: lightgray;
-}
+
+
 
 td:first-child, td:last-child {
     background-color:  rgb(255, 220, 220);
 }
-
+td.volgende-maand {
+    color: grey;
+    background-color: lightgray;
+}
+td.vorige-maand{
+     color: grey;
+     background-color: lightgray;
+ }
 td.Feestdag {
     background-color: rgb(250, 120, 120); /* Light Red */
 }
