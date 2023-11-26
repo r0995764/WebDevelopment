@@ -2,7 +2,8 @@
     display: flex;
 }
 section {
-    flex: 1;
+    float: left;
+    width:50%;
     box-sizing: border-box;
     border: 1px solid #ccc;
     padding: 10px;
