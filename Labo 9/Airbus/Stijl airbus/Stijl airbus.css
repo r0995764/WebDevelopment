@@ -83,9 +83,7 @@ main > figure {
     background-color: #999999;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 20px;
-    margin-right: 0;
-    margin-left:0;
+    margin: 20px 0 0;
     padding: 20px;
 }
 main   > figure > figcaption {
@@ -104,7 +102,6 @@ main > figure > figcaption > img {
 
 section  {
     background-color: #666666;
-    
 }
 section>div{
     margin-left: 120px;
