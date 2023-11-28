@@ -16,15 +16,11 @@ header > img {
     margin-bottom: 60px;
     top: 80px;
     right: 200px;
-    animation: rotateOnLanding 5s forwards;
+    animation: spin 5s linear ;
 }
-@keyframes rotateOnLanding {
-    0% {
-        transform: translateY(-100px) rotate(0deg);
-    }
-    100% {
-        transform: translateY(0) rotate(360deg);
-    }
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 
 header > h1 {
