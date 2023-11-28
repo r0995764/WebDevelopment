@@ -90,13 +90,16 @@ main > figure {
     background-color: #999999;
     margin: 20px 0 0;
     padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 .foto{
     margin-right: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
     display: inline-block;
-    width: 25%;
+
 }
 main > figure > div > img {
     width: 180px;
