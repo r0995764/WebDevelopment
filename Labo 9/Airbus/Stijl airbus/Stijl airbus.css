@@ -98,10 +98,6 @@ main > figure {
     margin-right: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
-    display: inline-block;
-
-}
-main > figure > div > img {
     width: 180px;
     height: 180px;
     padding: 10px ;
@@ -109,6 +105,7 @@ main > figure > div > img {
     background-color: white;
     border-radius: 5px;
 }
+
 
 section  {
     background-color: #666666;
