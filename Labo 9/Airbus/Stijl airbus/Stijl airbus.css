@@ -16,7 +16,17 @@ header > img {
     margin-bottom: 60px;
     top: 80px;
     right: 200px;
+    animation: rotateOnLanding 5s forwards;
 }
+@keyframes rotateOnLanding {
+    0% {
+        transform: translateY(-100px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(0) rotate(360deg);
+    }
+}
+
 header > h1 {
     color: darkblue;
     font-size: 300%;
@@ -30,18 +40,19 @@ header > h2 {
     font-weight: bold;
 }
 
-article{
+aside{
     width: 25%;
     background-color: #dddddd;
     float: right;
     border: 1px solid #999999;
+    box-sizing: border-box;
 }
-article > p{
+aside > p{
     color: #666666;
     font-size: 90%;
     padding: 10px 10px;
 }
-article > h3 {
+aside > h3 {
     color: white;
     background-color: blue;
     text-align: center;
@@ -50,7 +61,7 @@ article > h3 {
 main{
     width: 75%;
     box-sizing: border-box;
-    
+
 }
 main > div > p {
     background: white;
@@ -81,17 +92,17 @@ main > div > p > b {
 
 main > figure {
     background-color: #999999;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+
     margin: 20px 0 0;
     padding: 20px;
 }
-main   > figure > figcaption {
+.foto{
     margin-right: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
+    display: inline-block;
 }                              
-main > figure > figcaption > img {
+main > figure > div > img {
     width: 180px;
     height: 180px;
     padding: 10px ;
