@@ -1,0 +1,26 @@
+
+section{
+    display:flex;
+    justify-content: center;
+    background-color: white;
+}
+table{
+    width: 1000px;
+    height: 500px;
+}
+body{
+    background-color: #999999;
+    font-size: 50px;
+}
+#knop{
+    height: 75px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 450px;
+    right:320px;
+}
+.input{
+    font-size: 50px;
+}
