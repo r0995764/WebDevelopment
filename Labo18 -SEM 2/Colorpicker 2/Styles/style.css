@@ -1,0 +1,51 @@
+.color-box {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    border: solid 2px black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+section{
+    border: solid 10px black;
+    border-radius: 5px;
+    background-color: white;
+    width: 50%;
+    height: 300px;
+    display: grid;
+    align-content: stretch;
+    justify-items: center;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.slider{
+    width: 400px;
+}
+.letters{
+    position: absolute;
+    left: 400px;
+}
+.swatch {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    position: relative;
+}
+.verwijder {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.swatch-container {
+    display: flex;
+    flex-wrap: wrap;
+}
