@@ -1,0 +1,51 @@
+#body{
+    display: flex;
+    flex-wrap: wrap;
+    border: black 5px solid;
+
+    justify-items: center;
+
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+}
+.slider{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.letters{
+    display: block;
+    width: 100px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.swatch{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    position: relative;
+    display: inline-block;
+}
+
+.color-box{
+    width: 100px;
+    height: 100px;
+    position: relative;
+
+    margin-top: 25px;
+    margin-left: 50px;
+
+}
+#save{
+    width: 100%;
+    content: attr(value);
+    position: relative;
+
+}
+
