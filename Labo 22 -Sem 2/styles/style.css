@@ -1,0 +1,16 @@
+#go{
+    width: 500px;
+    height:20px;
+    background-color: green;
+    color: white;
+}
+span{
+
+}
+h1{
+    margin-bottom: 5px;
+}
+input{
+    height: 20px;
+    width: 500px;
+}
